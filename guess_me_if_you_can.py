@@ -23,4 +23,3 @@ if(guesses<hiscore):
     with open("hiscore.txt", "w") as f:
         f.write(str(guesses))
 
-#added in refine1 branch
